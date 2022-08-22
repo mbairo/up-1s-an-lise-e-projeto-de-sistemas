@@ -1,0 +1,14 @@
+* Relatório de quantos carros com IPVA atrasado passaram por determinado ponto (rua) da cidade, qual o horário e em quais dias da semana.
+* Calculo de quantos automóveis com ao menos uma pendência seriam abordados, com isso resultando em:  
+- Blitz mais assertivas
+- Economia de Recursos ($) e Energia Humana (Policiais)
+- Menos tempo de Blitz, resultando em maior agilidade e menos transtorno para os demais usuários da via.
+- Maior arrecadação de verba para programas sociais.
+
+productorhonorpleno 
+
+- Relatório de quantidade de automóveis inadimplentes
+- Alerta de furto em determinada região
+- Relatório da eficácia da Blitz (tempo gasto e quantidade de carros abordados com assertividade)
+- Evita corrupção (Uma vez que o carro(inadimplente) foi abordado não há como não multar, pois fica no relatório)
+

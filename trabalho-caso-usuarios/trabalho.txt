@@ -1,0 +1,60 @@
+- RESTRIÇÕES - 
+1. O sistema deverá ficar pronto até Junho de 2023 (Fim do curso)
+2. Deve-se optar por ferramentas/softwares livres, que minimizem o custo total do projeto.
+3. Deve ser compatível com os browsers mais polulares (Google Chrome, Mozilla Firefox e Internet Explore)
+4. Deve ser compatível com os Sistemas operacionais mais populares (Windows, Linux, macOS e Android)
+5. Suportar acesso aos servidores do Detran.
+6. O sistema suportará inicialmente no máximo 100 acessos simultâneos ao banco de dados Augen/Detran
+7. Deve ser de uso restrito apenas ao Estado (Segurança Pública)
+
+
+==================================
+Requisitos funcionais:
+- Deve emitir relatorios de horas ou dias sempre que solicitado pelo usúario
+===================================
+
+x Caso de teste
+
+
+
+Fluxo
+Criterios de aceitação
+=================================
+Uma história do usuário
+Templete do que a história vai fazer/Objetivo da história
+Fluxo (coerente com o protótipo)
+(FP) Narrativa/Regra de negócio
+(FP) Criterios de aceitação ou Comportamento de sucesso e de erro
+Protótipo
+
+Como usuário gostaria de consultar e editar o calendário para que eu possa agendar um lembre e receber alertas via pop-up na data programada.
+* Quero poder visualizar na mesma tela o calendário e os lembretes salvos.
+* Os lembretes devem mostrar a data e hora.
+* Quero ter a opção de cancelar um lembrete. 
+* Pop-up deve mostrar a mensagem inteira.
+
+
+VISÃO DO USUÁRIO
+
+Eu como usuário do sistema AUGEN 
+Desejo consultar e editar o calendário 
+Para que eu possa agendar uma Blitz a qual irei participar e receber alertas via pop-up (Mensagens, data e hora).
+
+PREMISSAS
+
+Realizar login.
+
+NARRATIVA/REGRA DE NEGÓCIO
+
+- Na primeira tela do sistema devera aparecer o campo para logar "E-mail" e "Senha" e um campo para ele recupera a senha caso tenha perdido "Esqueceu sua senha?".
+- Na segunda tela devera aparecer o perfil do usuário com nome, foto e frase pessoal. Logo abaixo um campo com as opções "Mensagens" e "Menu".
+- Caso o usuário escollha a opção "Menu" devera ser mostrado a seguinte listagens de opções(botões):
+	* Campo para realizar uma busca com saida de texto.
+	* "Perfil";
+	* "Relatorios / Dashboard";
+	* "Mensagens";
+	* "Calendário";
+	* "Treinamento"
+- Se for selecionado o botão "Calendário" devera ser apresentado um calendário mostrando o mês atual e na parte de baixo os lembretes salvos, caso tenha algum e a opção de deletar o lembre.
+- Caso seja pressionado algum dia do calendário, o sistema devera abir um campo para ser digitado algum lembrete e a opção de "Salvar".
+- Na data/horário programada do lembrete o sistema devera apresentar um Pop-up com a mensagem salva.
